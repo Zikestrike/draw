@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="ZTPz-d(1qh2l;dPdEU#^">Player</variable><variable type="KIND_SpriteKind" id="*!cHZP5+jQ3Q-9%iiB!5">Projectile</variable><variable type="KIND_SpriteKind" id="l+the+Hi|Qb1pGGBL8u(">Food</variable><variable type="KIND_SpriteKind" id="?+Drf3D#F)B*ouQ}%@*t">Enemy</variable><variable id="YKt0HBX9S?77xsOu:QXW">mySprite</variable><variable id="iAm!VR8gq8i82|0PV=m0">mySprite2</variable></variables><block type="forever" id="=9wzb^4nY*!l:rJ/x;%:" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="qOK2i+mi+qr=V4+1gg2$"><field name="VAR" id="YKt0HBX9S?77xsOu:QXW">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="S`;~Cxr1778H-3MP7:o@"><value name="img"><shadow type="screen_image_picker" id="j-DVj~#gJr)Tom_llfD?"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . 9 . . . . 
+. . . . . . . . . . 9 9 . . . . 
+. . . . . . . . . 9 9 . . . . . 
+. . . . . . . . 9 9 . . . . . . 
+. . . . . . . . 9 9 . . . . . . 
+. . . . . . . 9 9 9 . . . . . . 
+. . . . . . . 9 9 . . . . . . . 
+. . . . . . . 9 9 . . . . . . . 
+. . . . . . 9 9 9 . . . . . . . 
+. . . . . . 9 9 9 . . . . . . . 
+. . . . . . 9 . 9 . . . . . . . 
+. . . . . . 9 9 . . . . . . . . 
+. . . . . . 9 9 . . . . . . . . 
+. . . . . . 9 9 . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"j-DVj~#gJr)Tom_llfD?"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="zW+#mM7/TCO9bq!s{s:f"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id=";8(-Tw}o;:;,3,#:=eYu"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="9(_^nayq!BZqHcP80FVt"><field name="VAR" id="YKt0HBX9S?77xsOu:QXW">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="o1sX]TfJ|Mb8.T1N(ue$"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="3hTLRmpUIU^J^[}*S/B;"><field name="speed">100</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="V^ML;kOFF1E`b54Q|Fxq" x="51" y="171"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="mixer_play_sound" id="C|]iNo,:be@N?+}TcA$/"><field name="sound">music.buzzer</field></block></statement></block><block type="keyonevent" id="!QxF$u$v7ToW_(!DIVy#" x="110" y="261"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="mixer_play_sound" id="ui={Z1LZ-Qf*:a^Yb[{M"><field name="sound">music.buzzer</field></block></statement></block></xml>
